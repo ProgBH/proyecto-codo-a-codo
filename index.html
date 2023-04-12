@@ -24,6 +24,8 @@
 
 <body>
 
+    <!-- navigation -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -64,6 +66,119 @@
 
 
 
+    <!-- seccion contacto-->
+
+    <section class="cardSeccion ">
+
+        <div class="col" style="margin-top: 16px; margin-bottom: 16px;">
+
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-6">
+
+                    <h5>
+                        <span class="notbold">
+                            Queremos conocer tus necesidades y asesorarte sobre cómo poner marcha tu proyecto.
+                        </span>
+                    </h5>
+
+                    <p><b>Cuéntanos cómo podemos ayudarte.
+                            <br>¿Listo para dar el salto hacia la transformación digital?</b></p>
+
+                    <p class="pt-2">
+                        <b>Headquaters / Argentina y Cono Sur</b>
+                        <br>Av. Congreso 2157, piso 2 of. 4 – (C1428BVE)
+                        <br>Ciudad de Buenos Aires, Argentina.
+                    </p>
+
+
+
+                </div>
+
+                <div class="col-auto card" style="padding: 6px; border-radius: 6px; 
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26287.884162521248!2d-58.460167!3d-34.553922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb4290aa99103%3A0xb8129645050f57b!2sAv.%20Congreso%202157%2C%20C1428BVE%20CABA%2C%20Argentina!5e0!3m2!1ses!2sus!4v1681258427375!5m2!1ses!2sus"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col" style="margin-top: 16px;">
+
+
+            <form>
+
+                <div class="container">
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-4">
+                            <div class="form-outline">
+                                <input type="text" placeholder="Nombre*" id="formName" class="form-control"
+                                    required="true" />
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-outline">
+                                <input type="email" placeholder="Correo Electronico*" id="formEmail"
+                                    class="form-control" required="true" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row d-flex justify-content-center" style="margin-top: 20px;">
+
+                        <div class="col-4">
+                            <div class="form-outline">
+                                <input type="text" placeholder="Pais" id="formCountry" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-outline">
+                                <input type="tel" placeholder="Telefono" id="formPhone" class="form-control" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-8 form-outline" style="margin-top: 20px;">
+                            <input type="text" placeholder="Empresa*" id="formCompany" class="form-control"
+                                required="true" />
+                        </div>
+
+                        <div class="col-8 form-outline" style="margin-top: 20px;">
+                            <textarea placeholder="Mensaje*" id="formMessage" class="form-control"
+                                required="true"></textarea>
+                        </div>
+
+                        <div class="col-8 justify-content-center" style="margin-top: 20px;">
+                            <button type="submit" class="btn btn-primary mb-4" style="background-color: #0297de;"
+                                onclick="foo()">
+                                Enviar
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- footer -->
     <footer class="bg-light text-center text-black">
 
 
@@ -72,7 +187,6 @@
 
             <form action="">
                 <div class="row d-flex justify-content-center">
-                    <!--Grid column-->
                     <div class="col-auto">
                         <p class="pt-2">
                             <strong>Suscríbete a nuestro boletín</strong>
@@ -81,12 +195,14 @@
 
                     <div class="col-md-5 col-12">
                         <div class="form-outline mb-4">
-                            <input type="email"  placeholder="Correo Electronico"  id="formSucribe" class="form-control" />
+                            <input type="email" placeholder="Correo Electronico" id="formSucribe"
+                                class="form-control" />
                         </div>
                     </div>
 
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-4" style="background-color: #0297de;" onclick="foo()">
+                        <button type="submit" class="btn btn-primary mb-4" style="background-color: #0297de;"
+                            onclick="foo()">
                             Subscribirse
                         </button>
                     </div>

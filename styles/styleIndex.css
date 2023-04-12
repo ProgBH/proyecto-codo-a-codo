@@ -1,18 +1,18 @@
 .selector-for-some-widget {
-    box-sizing: content-box;
-  }
-
-
-  .navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
+  box-sizing: content-box;
 }
 
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav>li {
+  display: inline-block;
+  float: none;
 }
 
 .navbar-toggler {
@@ -27,7 +27,7 @@
   border: 0 !important;
 }
 
-.toggler-icon{
+.toggler-icon {
   width: 30px;
   height: 3px;
   background-color: #e74c3c;
@@ -36,7 +36,7 @@
 }
 
 /* Adds Space between the lines */
-.middle-bar{
+.middle-bar {
   margin: 5px auto;
 }
 
@@ -70,4 +70,20 @@
 
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #777777;
+}
+
+.notbold {
+  font-weight: normal
+}
+
+.cardSeccion{
+  display: inline-;
+  width: fit-content;
+  float: none;
+  padding: 5px;
+  margin: 22px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
