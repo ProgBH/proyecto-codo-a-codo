@@ -35,7 +35,6 @@
   transition: all 0.2s;
 }
 
-/* Adds Space between the lines */
 .middle-bar {
   margin: 5px auto;
 }
@@ -86,4 +85,9 @@
   margin-left:auto;
   border-radius: 6px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rowText{
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
